@@ -1,5 +1,5 @@
 {
-    "isDev": true,
+    "isDev": false,
     "session": {
         "host": "localhost",
         "port": 6379,
@@ -8,11 +8,11 @@
         "secure": false
     },
     "http": {
-        "listen": "0.0.0.0",
-        "port": 3000
+        "listen": "http://fathomless-ridge-2321.herokuapp.com",
+        //"port": 3000
     },
     "client": {
-        "apiUrl": "http://localhost:3000",
+        "apiUrl": "http://fathomless-ridge-2321.herokuapp.com",
         "debugMode": true
     }
 }

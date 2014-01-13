@@ -7,6 +7,7 @@ var config = require('getconfig');
 var semiStatic = require('semi-static');
 var stylizer = require('stylizer');
 var templatizer = require('templatizer');
+var logfmt = require("logfmt");
 var app = express();
 
 // a little helper for fixing paths for various enviroments
